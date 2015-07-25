@@ -1,0 +1,83 @@
+---
+# Basic
+- Hai. <b>Hello World!</b> Kthxbai.
+- p. Hai. **Hello World!**  Kthxbai.
+# Simple link
+- <p><a href="http://bit.ly/HEWphW">Mack the Collie playing in a stream.</a></p>
+- p. "Mack the Collie playing in a stream.":http://bit.ly/HEWphW
+# Complex mixture of markup and attributes
+- |
+  <h2 class="tester">This is a test for lists &#169;:</h2>
+  <h3 class="tester" style="padding-left: 2em; text-align: left;">Subheading:</h3>
+  <p>dfdfd</p>
+  <ul>
+    <li>Hello<ol><li>Blah</li></ol></li>
+    <li>Hello2<ul><li>Blah2</li></ul></li>
+    <li>Meh<ul><li>Blah3</li>
+  </ul>
+  </li>
+  <li>Bai</li>
+  <li>No rly, bai</li>
+  </ul>
+  Blarh
+  <!-- <h5>dfdfd</h5> -->
+  <dl>
+    <dt>ABC</dt><dd>Abstract Base Class</dd>
+    <dt>RAM</dt><dd>Random Access memory</dd>
+  </dl>
+  <a href="#poop" title="This should have a title">1 <em>2</em> 3</a>
+  <img src="http://poop.com/blah.jpg" class="thumb" style="display: block; " alt="NO" />
+  Blarg
+
+- ! "h2(tester). This is a test for lists ©:\n\nh3<(tester). Subheading:\n\np. dfdfd\n\n*
+  Hello \n## Blah\n* Hello2 \n** Blah2\n* Meh \n** Blah3\n* Bai\n* No rly, bai\n\nBlarh
+  \ \n\n- ABC  := Abstract Base Class  \n- RAM  := Random Access memory  \n\n\"1 _2_
+  \ 3(This should have a title)\":#poop  !{display: block;}(thumb)http://poop.com/blah.jpg(NO)!
+  \ Blarg"
+# Nested unordered list
+- |
+  <ul>
+    <li>Hello 1
+    <ul>
+      <li>Hello 1.1</li>
+      <li>Hello 1.2</li>
+    </ul></li>
+    <li>Hello 2
+    <ul>
+      <li>Hello 2.1
+      <ul>
+        <li>Hello 2.1.1</li>
+      </ul></li>
+      <li>Hello 2.2</li>
+    </ul></li>
+    <li>Hello 3
+    <ul>
+      <li>Hello 3.1</li>
+      <li>Hello 3.2
+      <ul>
+        <li>Hello 3.2.1</li>
+      </ul></li>
+    </ul></li>
+    <li>Hello 4</li>
+  </ul>
+
+- |-
+  * Hello 1  
+  ** Hello 1.1
+  ** Hello 1.2
+  * Hello 2  
+  ** Hello 2.1  
+  *** Hello 2.1.1
+  ** Hello 2.2
+  * Hello 3  
+  ** Hello 3.1
+  ** Hello 3.2  
+  *** Hello 3.2.1
+  * Hello 4
+# Carriage return and spacing
+- <p>Beef Cake<br />Chicken<br />Ocean Fish<br />And Choccee (made using dog friendly Carob)</p>
+- ! "p. Beef Cake \nChicken \nOcean Fish \nAnd Choccee (made using dog friendly Carob)"
+# Entities
+# - <h1>Hello it&#8220;s fricking freezing Mr. Bigglesworth!</h1><p>Indeed!</p>
+# - "h1. Hello it's fricking freezing Mr. Bigglesworth!\n\n\
+#   p. Indeed!"
