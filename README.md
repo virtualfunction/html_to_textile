@@ -1,3 +1,3 @@
-Sortable Resource
+# HTML 2 Textile
 
-This makes it easy with controllers using inherited_resources to add basic sortable functionality
+Basic HTML to Textile conversion
